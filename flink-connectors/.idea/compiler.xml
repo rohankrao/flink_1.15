@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="flink-connector-kafka" />
+        <module name="flink-sql-connector-hive-3.1.2_2.12" />
+        <module name="flink-sql-connector-kinesis" />
+        <module name="flink-connector-hive_2.12" />
+        <module name="flink-sql-connector-pulsar" />
+        <module name="flink-file-sink-common" />
+        <module name="flink-sql-connector-rabbitmq" />
+        <module name="flink-connector-gcp-pubsub" />
+        <module name="flink-connector-hbase-base" />
+        <module name="flink-hcatalog_2.12" />
+        <module name="flink-sql-connector-aws-kinesis-streams" />
+        <module name="flink-connector-pulsar" />
+        <module name="flink-hadoop-compatibility_2.12" />
+        <module name="flink-sql-connector-kafka" />
+        <module name="flink-connector-kinesis" />
+        <module name="flink-connector-jdbc" />
+        <module name="flink-connector-nifi" />
+        <module name="flink-sql-connector-aws-kinesis-firehose" />
+        <module name="flink-connector-aws-kinesis-streams" />
+        <module name="flink-connector-aws-base" />
+        <module name="flink-connector-rabbitmq" />
+        <module name="flink-sql-connector-hive-1.2.2_2.12" />
+        <module name="flink-sql-connector-hive-2.2.0_2.12" />
+        <module name="flink-connector-elasticsearch6" />
+        <module name="flink-connector-elasticsearch7" />
+        <module name="flink-connector-aws-kinesis-firehose" />
+        <module name="flink-sql-connector-hive-2.3.6_2.12" />
+        <module name="flink-connector-files" />
+        <module name="flink-connector-elasticsearch-base" />
+        <module name="flink-sql-connector-elasticsearch6" />
+        <module name="flink-connector-hbase-2.2" />
+        <module name="flink-connector-hbase-1.4" />
+        <module name="flink-sql-connector-elasticsearch7" />
+        <module name="flink-sql-connector-hbase-1.4" />
+        <module name="flink-connector-cassandra_2.12" />
+        <module name="flink-sql-connector-hbase-2.2" />
+        <module name="flink-connector-base" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="flink-connector-aws-base" options="-Xpkginfo:always" />
+      <module name="flink-connector-aws-kinesis-firehose" options="-Xpkginfo:always" />
+      <module name="flink-connector-aws-kinesis-streams" options="-Xpkginfo:always" />
+      <module name="flink-connector-base" options="-Xpkginfo:always" />
+      <module name="flink-connector-cassandra_2.12" options="-Xpkginfo:always" />
+      <module name="flink-connector-elasticsearch-base" options="-Xpkginfo:always" />
+      <module name="flink-connector-elasticsearch6" options="-Xpkginfo:always" />
+      <module name="flink-connector-elasticsearch7" options="-Xpkginfo:always" />
+      <module name="flink-connector-files" options="-Xpkginfo:always" />
+      <module name="flink-connector-gcp-pubsub" options="-Xpkginfo:always" />
+      <module name="flink-connector-hbase-1.4" options="-Xpkginfo:always" />
+      <module name="flink-connector-hbase-2.2" options="-Xpkginfo:always" />
+      <module name="flink-connector-hbase-base" options="-Xpkginfo:always" />
+      <module name="flink-connector-hive_2.12" options="-Xpkginfo:always" />
+      <module name="flink-connector-jdbc" options="-Xpkginfo:always" />
+      <module name="flink-connector-kafka" options="-Xpkginfo:always" />
+      <module name="flink-connector-kinesis" options="-Xpkginfo:always" />
+      <module name="flink-connector-nifi" options="-Xpkginfo:always" />
+      <module name="flink-connector-pulsar" options="-Xpkginfo:always" />
+      <module name="flink-connector-rabbitmq" options="-Xpkginfo:always" />
+      <module name="flink-file-sink-common" options="-Xpkginfo:always" />
+      <module name="flink-hadoop-compatibility_2.12" options="-Xpkginfo:always" />
+      <module name="flink-hcatalog_2.12" options="-Xpkginfo:always" />
+      <module name="flink-sql-connector-aws-kinesis-firehose" options="-Xpkginfo:always" />
+      <module name="flink-sql-connector-aws-kinesis-streams" options="-Xpkginfo:always" />
+      <module name="flink-sql-connector-elasticsearch6" options="-Xpkginfo:always" />
+      <module name="flink-sql-connector-elasticsearch7" options="-Xpkginfo:always" />
+      <module name="flink-sql-connector-hbase-1.4" options="-Xpkginfo:always" />
+      <module name="flink-sql-connector-hbase-2.2" options="-Xpkginfo:always" />
+      <module name="flink-sql-connector-hive-1.2.2_2.12" options="-Xpkginfo:always" />
+      <module name="flink-sql-connector-hive-2.2.0_2.12" options="-Xpkginfo:always" />
+      <module name="flink-sql-connector-hive-2.3.6_2.12" options="-Xpkginfo:always" />
+      <module name="flink-sql-connector-hive-3.1.2_2.12" options="-Xpkginfo:always" />
+      <module name="flink-sql-connector-kafka" options="-Xpkginfo:always" />
+      <module name="flink-sql-connector-kinesis" options="-Xpkginfo:always" />
+      <module name="flink-sql-connector-pulsar" options="-Xpkginfo:always" />
+      <module name="flink-sql-connector-rabbitmq" options="-Xpkginfo:always" />
+    </option>
+  </component>
+</project>

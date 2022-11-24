@@ -71,7 +71,7 @@ make_binary_release() {
   fi
 
   # enable release profile here (to check for the maven version)
-  $MVN clean package $FLAGS -Prelease -pl flink-dist -am -Dgpg.skip -Dcheckstyle.skip=true -DskipTests
+  $MVN clean package $FLAGS -Prelease -pl flink-dist -am -Dgpg.skip -Dcheckstyle.skip=true -DskipTests -Denforcer.skip
 
   cd flink-dist/target/flink-${RELEASE_VERSION}-bin
   ${FLINK_DIR}/tools/releasing/collect_license_files.sh ./flink-${RELEASE_VERSION} ./flink-${RELEASE_VERSION}
